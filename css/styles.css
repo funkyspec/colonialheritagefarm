@@ -1,7 +1,14 @@
+body {
+    /* background image below courtesy of www.myfreetextures.com */
+    background-image: url("../images/bg_1.jpg");
+
+}
+
 h1.pin {
     font-family: 'Pinyon Script', cursive;
     margin-top: 25px;
-    font-size: 8rem;
+    font-size: 10rem;
+   
 }
 
 h1.pap  {
