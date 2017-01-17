@@ -8,6 +8,8 @@ body {
     margin-top: 15px;
 }
 
+/* main page header styles */
+
 h1 {
     font-family: 'Pinyon Script', cursive;
     font-weight: bold; 
@@ -37,9 +39,21 @@ h1 {
 
 }
 
-.four.columns img {
+.columns img {
     max-width: 100%;
 }
+
+/* interior pages - secondary column */ 
+
+
+
+.secondary {
+    font-size: 90%;
+    padding-left: 1rem;
+}
+
+
+/* navigation styles */
 
 nav {
      
@@ -97,7 +111,7 @@ nav a:active {
 
 @media screen and (min-width: 550px) {
     nav {
-        margin-top: -20px;
+        margin-top: -15px;
         margin-bottom: 20px;
         position: static;
         background: transparent;
