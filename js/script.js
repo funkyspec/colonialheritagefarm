@@ -13,5 +13,8 @@
         // Display sidebar
       }
     });
+
+    $('.emmyadd').html("<strong>Email:</strong> Stephenbkelly@gmail.com<br><strong>Text:</strong> 301-706-7912");
+    
   });
 })(jQuery);
