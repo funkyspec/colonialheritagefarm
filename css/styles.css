@@ -19,7 +19,7 @@ header img {
     
     position: absolute;
     top: 0;
-    height: 90%;
+    height: 85%;
     right: 0;
     
   z-index: -5;
@@ -33,13 +33,27 @@ header img {
     }
 }
 
+figure {
+    margin: 0 0 2rem 0;
+    text-align: center;
+    
+}
 
+figure:not(:first-child) {
+    margin-top: 3rem;
+}
+
+figure img {
+    border-radius: 15px;
+}
+
+figure img:first-child {
+    margin-right: 30px;
+}
 
 p {
     margin-bottom: 1rem;
 }
-
-
 
 ul {
     list-style-type: disc;
@@ -52,15 +66,31 @@ li {
 /* main page header styles */
 
 h1 {
-    font-family: 'Pinyon Script', cursive;
-    /* font-weight: bold; */
+    font-family: 'Monsieur La Doulaise', cursive;
+    font-weight: normal; 
     margin-left: 35px;
     line-height: 1;
     margin-top: 15px;
     margin-bottom: 0;
     z-index: 5;
     max-width: 100%;
+   
     
+}
+
+h4, h5 {
+   font-family: 'Monsieur La Doulaise', cursive;
+   
+}
+
+@media (min-width: 550px) {
+    h4 {
+        font-size: 4rem;
+    }
+
+    h5 {
+        font-size: 3rem;
+    }
 }
 
 
@@ -83,7 +113,7 @@ h1 {
 
 @media (min-width: 865px) {
     h1 {
-        font-size: 7rem;
+        font-size: 8rem;
         font-weight: normal;
     }
 
@@ -97,6 +127,7 @@ h2.tagline {
     line-height: inherit;
     letter-spacing: inherit;
     margin-bottom: 1rem;
+    margin-top: 15px;
     
 }
 p.tagline {
@@ -115,22 +146,28 @@ h3.geographic-location {
 
 @media (min-width: 700px) {
     h3.geographic-location {
-        margin: -1rem 0 0 40rem;
+        margin: -1rem 0 0 44rem;
     }
 
 }
 
 
-
+#mainhome {
+    background: url(../images/sons-of-liberty-1.jpg) no-repeat;
+    min-height: 767px;
+    border-radius: 25px;
+    padding: 30px 20px 0 20px;
+}
 
 .faulk-quote {
-    font-size: 2.4rem;
+    font-size: 3rem;
     z-index: 2;
     position: relative;
     margin-left: 20px;
     margin-bottom: 0;
     font-style: italic;
-    color: saddlebrown;
+    color: black;
+    margin-top: 1rem;
    
  
 }
@@ -140,12 +177,12 @@ h3.geographic-location {
 }
 
 .faulk-quote q:before {
- color:#c1c083;
+ color:#bca77e;
  font-family: Georgia, 'Times New Roman', Times, serif;
   content: open-quote;
   font-size: 4em;
   position: absolute;
-  top: -40px;
+  top: -50px;
   left: -30px;
   z-index: -10;
 }
@@ -163,7 +200,10 @@ h3.geographic-location {
  .quotee {
     font-size: 1.5rem;
     font-style: italic;
-    text-align: center;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 18px;
+    
     
 }
 
@@ -257,7 +297,7 @@ nav a:active {
 
 @media screen and (min-width: 550px) {
     nav {
-        margin-bottom: 1rem;
+        margin-bottom: 2.5rem;
         position: static;
         background: transparent;
         width: auto;
