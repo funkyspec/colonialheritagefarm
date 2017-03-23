@@ -72,7 +72,8 @@ li {
 h1 {
     font-family: 'Monsieur La Doulaise', cursive;
     font-weight: normal; 
-    margin-left: 35px;
+    margin-left: 10px;
+    margin-right: 35px;
     line-height: 1;
     margin-top: 15px;
     margin-bottom: 0;
@@ -84,7 +85,7 @@ h1 {
 
 @media screen and (min-width: 550px) {
     h1 {
-        margin-left: 10px;
+        
         font-weight: normal;
         font-size: 6rem;
         
@@ -274,18 +275,19 @@ nav {
 
 .show-nav nav {
  transform: translateX(200px);
- padding-left: 55px;
+ padding-left: 5px;
+ width: 100%;
 }
 
 
 nav a {
     display: block;
     font-weight: bold;
-    margin: .5rem 0 1rem 0;
+    margin: .5rem 45px 1rem 0;
     border-radius: 25px;
     border: 2px solid saddlebrown;
     
-    width: 90%;
+    width: 70%;
     color: saddlebrown;
     padding: .5rem 0 .5rem 1rem;
 }
@@ -384,9 +386,9 @@ nav a:active {
 
 #nav-toggle {
   position: fixed;
-  top: 15px;
-  left: 13px;
-  float: left;
+  top: 12px;
+  right: 5px;
+  float: right;
   /* margin-right: 45px; */
   transition: all ease .3s;
   z-index: 10;
