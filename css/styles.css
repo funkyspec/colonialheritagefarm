@@ -99,7 +99,7 @@ h1 {
         font-size: 5rem;
     }
 } */
-@media (min-width: 865px) {
+@media (min-width: 890px) {
     h1 {
         font-size: 8.5rem;
         font-weight: normal;
