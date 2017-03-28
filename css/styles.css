@@ -89,6 +89,7 @@ h1 {
         
         font-weight: normal;
         font-size: 6rem;
+        margin-right: 0;
         
     }
 }
@@ -98,19 +99,27 @@ h1 {
         font-size: 5rem;
     }
 } */
-
-
-
 @media (min-width: 865px) {
     h1 {
         font-size: 8.5rem;
         font-weight: normal;
+        margin-right: 0;
+    }
+
+}
+
+
+@media (min-width: 1065px) {
+    h1 {
+        font-size: 10rem;
+        font-weight: normal;
+        margin-right: 0;
     }
 
 }
 
 h4, h5 {
-   font-family: 'Monsieur La Doulaise', cursive;
+   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 3rem;
    margin-top: 2rem;
    font-weight: 600;
@@ -211,7 +220,7 @@ h3.geographic-location {
    margin-left: 10px;
    margin-top: 1.5rem;
    font-style: oblique;
-   font-size: 2rem;
+   font-size: 1.75rem;
  
 }
 
