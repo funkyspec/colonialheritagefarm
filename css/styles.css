@@ -132,7 +132,7 @@ h4, h5 {
    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-size: 3rem;
    margin-top: 2rem;
-   font-weight: 600;
+   font-weight: 500;
    
 }
 
@@ -151,7 +151,7 @@ h5 {
 @media (min-width: 550px) {
     h4 {
         font-size: 4rem;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     /*
@@ -162,7 +162,7 @@ h5 {
 
     h5 {
         font-size: 3rem;
-        font-weight: 600;
+        font-weight: 500;
     }
 
     #sansserif h4, #sansserif h5 {
@@ -234,7 +234,7 @@ h3.geographic-location {
  
 }
 
-@media screen and (min-width: 670px) {
+@media screen and (min-width: 6700px) {
     .faulk-quote {
         font-size: 1.75rem;
     }
