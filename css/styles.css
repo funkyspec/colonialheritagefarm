@@ -51,7 +51,7 @@ figure img {
     border-radius: 15px;
 }
 
-figure img:first-child {
+figure img:not(:last-child) {
     margin-right: 30px;
 }
 
