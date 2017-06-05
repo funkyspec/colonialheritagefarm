@@ -25,13 +25,35 @@ header img {
   z-index: -5;
     opacity: 0.3;
    
-} */
+} 
 
 @media (min-width: 700px) {
     header img {
         opacity: 0.6;
     }
+}  */
+
+/* new design styles for 2 block slideshow */
+
+#newdes figure img {
+    max-width: 80%;
+    margin-right: 0;
 }
+
+
+@media (min-width: 550px) {
+    #newdes figure img {
+    width: 45%;
+    }
+
+    #newdes figure img:not(:last-child) {
+    margin-right: 30px;
+    }
+}
+
+
+
+/*end new design slideshow styles */
 
 figure {
     margin: 0 0 2rem 0;
@@ -80,6 +102,8 @@ h1 {
     margin-bottom: 0;
     z-index: 5;
     max-width: 100%;
+
+    text-align: center;
    
     
 }
@@ -125,7 +149,6 @@ h1 {
         font-size: 10rem;
         font-weight: normal;
         margin-right: 0;
-        letter-spacing: 1rem;
     }
 
 }
@@ -184,13 +207,27 @@ h2.tagline {
     line-height: inherit;
     letter-spacing: inherit;
     margin-bottom: 1rem;
-    margin-top: 15px;
+    margin-top: 10px;
+    text-align: center;
     
+}
+
+@media screen and (min-width: 740px) {
+    h2.tagline {
+        font-size: 1.7rem;
+         font-weight: normal;
+         margin-bottom: 1.5rem;
+      
+    }
 }
 p.tagline {
     margin-left: 10px;
     
 }
+
+
+
+/*
 
 h3.geographic-location {
     font-weight: normal;
@@ -208,7 +245,7 @@ h3.geographic-location {
 
 }
 
-/*
+
 #mainhome {
     background: url(../images/sons-of-liberty-1.jpg) no-repeat;
     min-height: 767px;
