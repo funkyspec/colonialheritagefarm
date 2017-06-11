@@ -36,20 +36,40 @@ header img {
 /* new design styles for 2 block slideshow */
 
 #newdes figure img {
-    max-width: 80%;
-    margin-right: 0;
+    max-width: 45%;
+    margin-right: 2px;
+    border: 2px solid saddlebrown;
 }
 
 
 @media (min-width: 550px) {
     #newdes figure img {
-    width: 45%;
+    width: 40%;
+   
     }
 
+    #newdes figure img:not(:last-child) {
+    margin-right: 20px;
+    }
+}
+
+@media (min-width: 775px) {
+    #newdes figure img {
+        width: 35%;
+         border: 4px solid saddlebrown;
+    }
     #newdes figure img:not(:last-child) {
     margin-right: 30px;
     }
 }
+
+
+@media (min-width: 1000px) {
+    #newdes figure img {
+        width: 30%;
+    }
+}
+
 
 
 
@@ -72,6 +92,7 @@ figure:not(:first-child) {
 figure img {
     border-radius: 15px;
 }
+
 
 figure img:not(:last-child) {
     margin-right: 30px;
@@ -202,8 +223,9 @@ h5 {
 h2.tagline {
    
     font-weight: inherit;
+     font-weight: bold;
     margin-left: 10px;
-    font-size: inherit;
+    font-size: 1.4rem;
     line-height: inherit;
     letter-spacing: inherit;
     margin-bottom: 1rem;
@@ -212,9 +234,22 @@ h2.tagline {
     
 }
 
+@media screen and (min-width: 310px) {
+    h2.tagline {
+        font-size: 1.8rem;
+        font-weight: inherit;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    h2.tagline {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (min-width: 740px) {
     h2.tagline {
-        font-size: 1.7rem;
+        font-size: 2.2rem;
          font-weight: normal;
          margin-bottom: 1.5rem;
       
