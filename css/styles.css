@@ -80,15 +80,18 @@ header img {
 #newdes #slide01 {
   width: 30%;
   margin-left: 17%;
+  margin-bottom: 10px;
 
 }
 
 #newdes #slide02 {
   width: 30%;
-
+margin-bottom: 10px;
 }
 
+#figcont {
 
+}
 /*end new design slideshow styles */
 
 figure {
