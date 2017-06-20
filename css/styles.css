@@ -16,16 +16,16 @@ header {
 
 /*
 header img {
-    
+
     position: absolute;
     top: 0;
     height: 85%;
     right: 0;
-    
+
   z-index: -5;
     opacity: 0.3;
-   
-} 
+
+}
 
 @media (min-width: 700px) {
     header img {
@@ -45,7 +45,7 @@ header img {
 @media (min-width: 550px) {
     #newdes figure img {
     width: 40%;
-   
+
     }
 
     #newdes figure img:not(:last-child) {
@@ -70,7 +70,23 @@ header img {
     }
 }
 
+#newdes #slide01 img, #newdes #slide02 img {
+  border-radius: 15px;
 
+  border: 4px solid saddlebrown;
+  width: 95%;
+}
+
+#newdes #slide01 {
+  width: 30%;
+  margin-left: 17%;
+
+}
+
+#newdes #slide02 {
+  width: 30%;
+
+}
 
 
 /*end new design slideshow styles */
@@ -78,7 +94,7 @@ header img {
 figure {
     margin: 0 0 2rem 0;
     text-align: center;
-    
+
 }
 
 figcaption {
@@ -125,8 +141,8 @@ h1 {
     max-width: 100%;
 
     text-align: center;
-   
-    
+
+
 }
 
 @media screen and (min-width: 550px) {
@@ -140,11 +156,11 @@ h1 {
 
 @media screen and (min-width: 650px) {
     h1 {
-        
+
         font-weight: normal;
         font-size: 6rem;
         margin-right: 0;
-        
+
     }
 }
 
@@ -179,7 +195,7 @@ h4, h5 {
    font-size: 3rem;
    margin-top: 2rem;
    font-weight: 500;
-   
+
 }
 
 #sansserif h4, #sansserif h5 {
@@ -221,7 +237,7 @@ h5 {
 }
 
 h2.tagline {
-   
+
     font-weight: inherit;
      font-weight: bold;
     margin-left: 10px;
@@ -231,7 +247,7 @@ h2.tagline {
     margin-bottom: 1rem;
     margin-top: 10px;
     text-align: center;
-    
+
 }
 
 @media screen and (min-width: 310px) {
@@ -252,12 +268,12 @@ h2.tagline {
         font-size: 2.2rem;
          font-weight: normal;
          margin-bottom: 1.5rem;
-      
+
     }
 }
 p.tagline {
     margin-left: 10px;
-    
+
 }
 
 
@@ -266,7 +282,7 @@ p.tagline {
 
 h3.geographic-location {
     font-weight: normal;
-    
+
     margin: 0 0 0 35px;
     font-size: 1.3rem;
     line-height: inherit;
@@ -300,12 +316,12 @@ h3.geographic-location {
     color: black;
     margin-top: 1rem;
     */
-   
+
    margin-left: 10px;
    margin-top: 1.5rem;
    font-style: oblique;
    font-size: 1.5rem;
- 
+
 }
 
 @media screen and (min-width: 670px) {
@@ -315,7 +331,7 @@ h3.geographic-location {
 }
 
 .faulk-quote q {
-    
+
 }
 
 /*
@@ -346,8 +362,8 @@ h3.geographic-location {
     font-weight: bold;
     text-align: right;
     margin-right: 18px;
-    
-    
+
+
 }
 */
 
@@ -356,7 +372,7 @@ main .columns img {
     max-width: 100%;
 }
 
-/* interior pages - secondary column */ 
+/* interior pages - secondary column */
 
 
 
@@ -371,8 +387,8 @@ main .columns img {
 /* navigation styles */
 
 nav {
-     
-   
+
+
   width: 200px;
   height: auto;
   position: fixed;
@@ -382,7 +398,7 @@ nav {
    z-index: 5;
    transition: .3s ease all;
    opacity: .9;
-  
+
 }
 
 .show-nav nav {
@@ -398,7 +414,7 @@ nav a {
     margin: .5rem 45px 1rem 0;
     border-radius: 25px;
     border: 2px solid saddlebrown;
-    
+
     width: 70%;
     color: saddlebrown;
     padding: .5rem 0 .5rem 1rem;
@@ -406,7 +422,7 @@ nav a {
 
 nav a:link {
     text-decoration: none;
-    
+
 }
 
 nav a:visited {
@@ -452,14 +468,14 @@ nav a:active {
         margin: 0 1rem 0 0;
         border-radius: 0;
         border: 0;
-       
+
         padding: .5rem;
-        
+
     }
 
     .urhere {
         margin-right: 1rem;
-    
+
         color: white;
         font-weight: bold;
         text-decoration: underline;
@@ -567,7 +583,3 @@ nav a:active {
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
-
-
-
-

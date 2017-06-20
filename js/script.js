@@ -14,7 +14,19 @@
       }
     });
 
+    $('#slide01').slick({
+      arrows: false,
+      autoplay:true,
+      fade: true
+    });
+
+  $('#slide02').slick({
+    arrows: false,
+    autoplay:true,
+    fade: true
+  });
+
     $('.emmyadd').html("<strong>Text:</strong> 301-706-7912");
-    
+
   });
 })(jQuery);
