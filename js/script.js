@@ -17,12 +17,14 @@
     $('#slide01').slick({
       arrows: false,
       autoplay:true,
+      autoplaySpeed: 3800,
       fade: true
     });
 
   $('#slide02').slick({
     arrows: false,
     autoplay:true,
+    autoplaySpeed: 4000,
     fade: true
   });
 
