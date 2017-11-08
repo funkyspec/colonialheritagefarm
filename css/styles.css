@@ -535,7 +535,7 @@ nav a:active {
     }
 
     #newdes nav {
-       font-size: .9em;
+       font-size: .85em;
     }
 
     nav a {
@@ -545,7 +545,7 @@ nav a:active {
         border-radius: 0;
         border: 0;
 
-        padding: .5rem;
+        padding: .5rem .2em .5em .2em;
 
     }
 
