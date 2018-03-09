@@ -1,6 +1,9 @@
 /**
  * Basic typography style for text
  */
+
+ /** First section has bemskel defaults **/
+
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
@@ -88,4 +91,10 @@ abbr {
 }
 
 
+/** colonial heritage overrides **/
 
+h1 { font-size: 3.0rem; letter-spacing: .5rem; }
+
+@media (#{$bp-larger-than-phablet}) {
+  h1 { font-size: 6rem; }
+}
