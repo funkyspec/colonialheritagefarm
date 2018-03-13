@@ -363,6 +363,7 @@ canvas {
 template, [hidden] {
   display: none; }
 
+/** colonial heritage overrides **/
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -543,6 +544,243 @@ pre > code {
   padding: 1rem 1.5rem;
   white-space: pre; }
 
+/** colonial heritage overrides **/
+body {
+  background-image: url("../images/bg_1.jpg"); }
+
+.pageheader {
+  padding-top: 20px; }
+
+.logosmall {
+  width: 200px;
+  float: left;
+  margin: -5px 0 0 0;
+  display: block; }
+
+/* navigation styles */
+nav {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  background: #fff;
+  z-index: 5;
+  transition: .3s ease all;
+  opacity: .9; }
+
+.show-nav nav {
+  transform: translateX(200px);
+  padding-left: 5px;
+  width: 100%; }
+
+nav a {
+  display: block;
+  font-weight: bold;
+  margin: .5rem 45px 1rem 0;
+  border-radius: 25px;
+  border: 2px solid saddlebrown;
+  width: 70%;
+  color: saddlebrown;
+  padding: .5rem 0 .5rem 1rem; }
+
+#newdes nav a {
+  padding-left: .7rem; }
+
+nav a:link {
+  text-decoration: none; }
+
+nav a:visited {
+  text-decoration: none; }
+
+nav a:hover {
+  color: white;
+  background: saddlebrown;
+  text-decoration: underline; }
+
+nav a:active {
+  color: white;
+  background: saddlebrown;
+  text-decoration: underline; }
+
+.urhere {
+  color: saddlebrown;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-left: 1rem; }
+
+@media screen and (min-width: 550px) {
+  nav {
+    margin-bottom: 2.5rem;
+    position: static;
+    background: transparent;
+    width: auto;
+    opacity: 1;
+    border: 3px solid saddlebrown;
+    border-radius: 15px;
+    text-align: center;
+    background: saddlebrown; }
+  #newdes nav {
+    font-size: .85em; }
+  nav a {
+    color: white;
+    display: inline;
+    margin: 0 1rem 0 0;
+    border-radius: 0;
+    border: 0;
+    padding: .5rem .2em .5em .2em; }
+  .urhere {
+    margin-right: 1rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: underline; }
+  nav a:link {
+    text-decoration: none;
+    color: white;
+    background: transparent; }
+  nav a:visited {
+    text-decoration: none;
+    color: white;
+    background: transparent; }
+  nav a:hover {
+    text-decoration: underline;
+    color: saddlebrown;
+    background: white; }
+  nav a:active {
+    text-decoration: underline;
+    color: saddlebrown;
+    background: white; } }
+
+/* elijah wood hamburger menu by way of tania rascia */
+#nav-toggle {
+  position: fixed;
+  top: 12px;
+  right: 5px;
+  float: right;
+  /* margin-right: 45px; */
+  transition: all ease .3s;
+  z-index: 10;
+  padding: 10px 35px 16px 0px; }
+
+/* .show-nav #nav-toggle {
+  margin-right: 200px;
+} */
+@media screen and (min-width: 550px) {
+  #nav-toggle {
+    display: none; } }
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 4px;
+  width: 27px;
+  /* background: #343434; */
+  background: saddlebrown;
+  position: absolute;
+  display: block;
+  content: ''; }
+
+#nav-toggle span {
+  background-color: saddlebrown; }
+
+#nav-toggle span:before {
+  top: -8px; }
+
+#nav-toggle span:after {
+  bottom: -8px; }
+
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  transition: all 200ms ease-in-out; }
+
+#nav-toggle.active span {
+  background-color: transparent; }
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
+  top: 0; }
+
+#nav-toggle.active span:before {
+  transform: rotate(45deg); }
+
+#nav-toggle.active span:after {
+  transform: rotate(-45deg); }
+
+/** colonial heritage home page slide show */
+/* new design styles for 2 block slideshow */
+#newdes figure img {
+  max-width: 45%;
+  margin-right: 2px;
+  border: 2px solid saddlebrown; }
+
+@media (min-width: 550px) {
+  #newdes figure img {
+    width: 40%; }
+  #newdes figure img:not(:last-child) {
+    margin-right: 20px; } }
+
+@media (min-width: 775px) {
+  #newdes figure img {
+    width: 35%;
+    border: 4px solid saddlebrown; }
+  #newdes figure img:not(:last-child) {
+    margin-right: 30px; } }
+
+@media (min-width: 1000px) {
+  #newdes figure img {
+    width: 30%; } }
+
+#newdes #slide01 img, #newdes #slide02 img {
+  border-radius: 15px;
+  border: 1px solid saddlebrown;
+  width: 95%;
+  /* box-shadow: 0 0 20px rgba(139,69,19, 0.4); */ }
+
+#newdes #slide01, #newdes #slide02 {
+  width: 46%;
+  margin-bottom: 10px; }
+
+#newdes #slide01 {
+  margin-left: 0; }
+
+#newdes #slide02 {
+  margin-left: 5px; }
+
+@media (min-width: 300px) {
+  #newdes #slide01, #newdes #slide02 {
+    width: 45%; }
+  #newdes #slide01 {
+    margin-left: 6px; }
+  #newdes #slide02 {
+    margin-left: 10px; }
+  #newdes #slide01 img, #newdes #slide02 img {
+    border: 2px solid saddlebrown; } }
+
+@media (min-width: 600px) {
+  #newdes #slide01, #newdes #slide02 {
+    width: 40%; }
+  #newdes #slide01 {
+    margin-left: 9%; }
+  #newdes #slide02 {
+    margin-left: 20px; } }
+
+@media (min-width: 900px) {
+  #newdes #slide01, #newdes #slide02 {
+    width: 35%; }
+  #newdes #slide01 {
+    margin-left: 12%; }
+  #newdes #slide01 img, #newdes #slide02 img {
+    border: 4px solid saddlebrown; } }
+
+@media (min-width: 1100px) {
+  #newdes #slide01, #newdes #slide02 {
+    width: 30%; }
+  #newdes #slide01 {
+    margin-left: 17%; } }
+
 .u-full-width {
   width: 100%; }
 
@@ -705,14 +943,25 @@ abbr {
   border-bottom: 0.1rem dotted #d3d3d3;
   cursor: default; }
 
-/** colonial heritage overrides **/
-h1 {
+/** colonial heritage overrides - html elements **/
+/** colonial heritage typography - BEM **/
+.compname {
+  font-family: leanderregular;
+  text-transform: uppercase; }
+
+.compname__firstlet {
+  font-size: 150%; }
+
+.compname--color-main {
+  color: #8D4621; }
+
+.compname--size-large {
   font-size: 3.0rem;
   letter-spacing: .5rem; }
 
 @media (min-width: 550px) {
-  h1 {
-    font-size: 6rem; } }
+  .compname--size-large {
+    font-size: 5rem; } }
 
 button, input {
   margin-bottom: 1rem; }
@@ -1233,8 +1482,5 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
-.compname {
-  font-family: leanderregular; }
-
 .dark {
   background-color: #1d1d1d; }

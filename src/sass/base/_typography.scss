@@ -91,10 +91,31 @@ abbr {
 }
 
 
-/** colonial heritage overrides **/
+/** colonial heritage overrides - html elements **/
 
-h1 { font-size: 3.0rem; letter-spacing: .5rem; }
+
+
+/** colonial heritage typography - BEM **/
+
+.compname {
+  font-family: leanderregular;
+  text-transform: uppercase;
+}
+
+.compname__firstlet {
+  font-size: 150%;
+}
+
+.compname--color-main {
+  color: $color-main-ch;
+}
+
+.compname--size-large {
+  font-size: 3.0rem;
+  letter-spacing: .5rem;
+
+}
 
 @media (#{$bp-larger-than-phablet}) {
-  h1 { font-size: 6rem; }
+  .compname--size-large { font-size: 5rem; }
 }

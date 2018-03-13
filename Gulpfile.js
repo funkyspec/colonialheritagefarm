@@ -37,8 +37,9 @@ const files = {
     'docs/css/bemskel/bemskel.css',
     'docs/css/bemskel/bemskel.min.css'
   ],
-  home: [ 'index.html', 'docs/css/custom.css' ]
+  home: [ 'index.html', 'docs/css/custom.css' ]   //
 }
+
 
 // Lint Task
 gulp.task('lint', function () {
@@ -88,9 +89,7 @@ gulp.task('build', function () {
 
 gulp.task('browser-sync', [ 'compileSass' ], function () {
   bs.init({
-    server: {
-      baseDir: './docs'
-    }
+    server: { baseDir: './docs' }
   })
 })
 
