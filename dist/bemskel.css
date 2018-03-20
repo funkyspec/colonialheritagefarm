@@ -1516,5 +1516,22 @@ near the relevant code. For example, if you wanted to change the styles for butt
 on small devices, paste the mobile query code up in the buttons section and style it
 there.
 */
+.topstrip {
+  height: 40px;
+  background-color: saddlebrown;
+  margin-top: 0;
+  color: white;
+  padding-top: 7px; }
+
+.headmain {
+  height: 640px;
+  background-image: url("/images/big_bg.jpg");
+  padding-top: 15px; }
+
+.logocont {
+  margin: 0 auto;
+  padding: 0;
+  width: 400px; }
+
 .dark {
   background-color: #1d1d1d; }

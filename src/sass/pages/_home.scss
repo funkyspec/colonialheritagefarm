@@ -1,3 +1,27 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
+
+.topstrip
+ {
+
+    height: 40px;
+    background-color: saddlebrown;
+    margin-top: 0;
+    color: white;
+    padding-top: 7px;
+
+}
+
+
+.headmain {
+    height: 640px;
+    background-image: url("/images/big_bg.jpg");
+    padding-top: 15px;
+}
+
+.logocont {
+    margin: 0 auto;
+    padding: 0;
+    width: 400px;
+}
