@@ -120,3 +120,8 @@ abbr {
 @media (#{$bp-larger-than-phablet}) {
   .compname--size-large { font-size: 5rem; }
 }
+
+.tagline {
+  font-family: leanderregular;
+  color: #F8EEBA;
+}

@@ -997,6 +997,10 @@ abbr {
   .compname--size-large {
     font-size: 5rem; } }
 
+.tagline {
+  font-family: leanderregular;
+  color: #F8EEBA; }
+
 button, input {
   margin-bottom: 1rem; }
 
@@ -1525,13 +1529,18 @@ there.
 
 .headmain {
   height: 640px;
-  background-image: url("/images/big_bg.jpg");
+  background-image: url("/images/big_bg2.jpg");
   padding-top: 15px; }
 
 .logocont {
   margin: 0 auto;
   padding: 0;
   width: 400px; }
+
+h2 {
+  text-align: center;
+  margin-top: 180px;
+  padding: 0; }
 
 .dark {
   background-color: #1d1d1d; }
