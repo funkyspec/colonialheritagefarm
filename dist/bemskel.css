@@ -546,7 +546,17 @@ pre > code {
 
 /** colonial heritage overrides **/
 body {
-  background-image: url("../images/bg_1.jpg"); }
+  background-image: url("/images/big_bg2sm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+@media (min-width: 500px) {
+  body {
+    background-image: url("/images/big_bg2.jpg"); } }
+
+main {
+  background-image: url("../images/bg_1.jpg");
+  padding-top: 20px; }
 
 .pageheader {
   padding-top: 20px; }
@@ -1528,19 +1538,33 @@ there.
   padding-top: 7px; }
 
 .headmain {
-  height: 640px;
-  background-image: url("/images/big_bg2.jpg");
   padding-top: 15px; }
 
+@media (min-width: 768px) {
+  .headmain {
+    height: 520px;
+    padding-top: 15px; } }
+
 .logocont {
-  margin: 0 auto;
-  padding: 0;
-  width: 400px; }
+  padding-left: 15px;
+  width: 300px; }
+
+@media (min-width: 480px) {
+  .logocont {
+    margin: 0 auto;
+    padding: 0;
+    width: 400px; } }
 
 h2 {
   text-align: center;
-  margin-top: 180px;
+  margin-top: 20px;
   padding: 0; }
+
+@media (min-width: 768px) {
+  h2 {
+    text-align: center;
+    margin-top: 160px;
+    padding: 0; } }
 
 .dark {
   background-color: #1d1d1d; }

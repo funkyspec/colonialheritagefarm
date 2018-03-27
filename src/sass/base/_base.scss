@@ -276,8 +276,30 @@ pre > code {
 
 body {
 
-  background-image: url("../images/bg_1.jpg");
+  //  background-image: url("../images/bg_1.jpg");
 
+  background-image: url("/images/big_bg2sm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  }
+
+
+
+@media (min-width: 500px) {
+
+  body {
+
+  //  background-image: url("../images/bg_1.jpg");
+
+  background-image: url("/images/big_bg2.jpg");
+
+  }
+}
+
+main {
+  background-image: url("../images/bg_1.jpg");
+  padding-top: 20px;
 }
 
 .pageheader {

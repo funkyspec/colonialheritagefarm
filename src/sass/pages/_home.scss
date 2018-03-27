@@ -2,6 +2,12 @@
 // This file contains styles that are specific to the home page.
 // -----------------------------------------------------------------------------
 
+.page--bigbg {
+
+
+}
+
+
 .topstrip
  {
 
@@ -15,19 +21,47 @@
 
 
 .headmain {
-    height: 640px;
-    background-image: url("/images/big_bg2.jpg");
+    // height: 320px;
+    //background-image: url("/images/big_bg2.jpg");
     padding-top: 15px;
 }
 
+@media (min-width: 768px) {
+
+    .headmain {
+        height: 520px;
+        //background-image: url("/images/big_bg2.jpg");
+        padding-top: 15px;
+    }
+}
+
+
 .logocont {
-    margin: 0 auto;
-    padding: 0;
-    width: 400px;
+    padding-left: 15px;
+    width: 300px;
+}
+
+@media (min-width: 480px) {
+    .logocont {
+        margin: 0 auto;
+        padding: 0;
+        width: 400px;
+
+    }
+
 }
 
 h2 {
     text-align: center;
-    margin-top: 180px;
+    margin-top: 20px;
     padding: 0;
+}
+
+@media (min-width: 768px) {
+
+    h2 {
+        text-align: center;
+        margin-top: 160px;
+        padding: 0;
+    }
 }
