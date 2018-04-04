@@ -545,6 +545,7 @@ pre > code {
   white-space: pre; }
 
 /** colonial heritage overrides **/
+/** home page mockup **/
 body {
   background-image: url("/images/big_bg2sm.jpg");
   background-attachment: fixed;
@@ -554,7 +555,25 @@ body {
   body {
     background-image: url("/images/big_bg2.jpg"); } }
 
-main {
+/** interior page mockup **/
+body.page--bigbggray {
+  background-image: url("/images/big_bg2sm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat; }
+
+@media (min-width: 500px) {
+  body.page--bigbggray {
+    background-image: url("/images/bigger_bg_gray.jpg"); } }
+
+@media (min-width: 1630px) {
+  body.page--bigbggray {
+    background-size: cover; } }
+
+h1.page-title {
+  color: #552c0e;
+  font-family: leanderregular; }
+
+body.page--bigbg main {
   background-image: url("../images/bg_1.jpg");
   padding-top: 20px; }
 
@@ -1532,7 +1551,7 @@ there.
 */
 .topstrip {
   height: 40px;
-  background-color: saddlebrown;
+  background-color: #552c0e;
   margin-top: 0;
   color: white;
   padding-top: 7px; }
@@ -1554,6 +1573,10 @@ there.
     margin: 0 auto;
     padding: 0;
     width: 400px; } }
+
+/** interior page mockup **/
+.logocont--int {
+  max-width: 250px; }
 
 h2 {
   text-align: center;

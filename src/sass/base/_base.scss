@@ -274,6 +274,8 @@ pre > code {
 
 /** colonial heritage overrides **/
 
+/** home page mockup **/
+
 body {
 
   //  background-image: url("../images/bg_1.jpg");
@@ -297,7 +299,50 @@ body {
   }
 }
 
-main {
+/** interior page mockup **/
+
+body.page--bigbggray {
+
+  //  background-image: url("../images/bg_1.jpg");
+
+  background-image: url("/images/big_bg2sm.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+  }
+
+
+
+@media (min-width: 500px) {
+
+  body.page--bigbggray {
+
+  //  background-image: url("../images/bg_1.jpg");
+
+  background-image: url("/images/bigger_bg_gray.jpg");
+
+  }
+}
+
+@media (min-width: 1630px) {
+
+  body.page--bigbggray {
+
+    //  background-image: url("../images/bg_1.jpg");
+
+    background-size: cover;
+
+    }
+
+}
+
+h1.page-title {
+  color: #552c0e;
+  font-family: leanderregular;
+}
+
+
+body.page--bigbg main {
   background-image: url("../images/bg_1.jpg");
   padding-top: 20px;
 }
