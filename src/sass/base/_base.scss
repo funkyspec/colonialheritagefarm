@@ -299,6 +299,15 @@ body {
   }
 }
 
+@media (min-width: 1630px) {
+
+  body {
+    background-size: cover;
+
+  }
+
+}
+
 /** interior page mockup **/
 
 body.page--bigbggray {
@@ -319,7 +328,9 @@ body.page--bigbggray {
 
   //  background-image: url("../images/bg_1.jpg");
 
-  background-image: url("/images/bigger_bg_gray.jpg");
+  // background-image: url("/images/bigger_bg_gray.jpg");
+
+  background-image: url("/images/big_bg2gray.jpg");
 
   }
 }
@@ -400,10 +411,10 @@ nav a {
     font-weight: bold;
     margin: .5rem 45px 1rem 0;
     border-radius: 25px;
-    border: 2px solid saddlebrown;
+    border: 2px solid #552c0e;
 
     width: 70%;
-    color: saddlebrown;
+    color: #552c0e;
     padding: .5rem 0 .5rem 1rem;
 }
 
@@ -422,18 +433,18 @@ nav a:visited {
 
 nav a:hover {
     color: white;
-    background: saddlebrown;
+    background: #552c0e;
     text-decoration: underline;
 }
 
 nav a:active {
     color: white;
-    background: saddlebrown;
+    background: #552c0e;
     text-decoration: underline;
 }
 
 .urhere {
-    color: saddlebrown;
+    color: #552c0e;
     font-weight: bold;
     text-decoration: underline;
     margin-left: 1rem;
@@ -447,10 +458,11 @@ nav a:active {
         background: transparent;
         width: auto;
         opacity: 1;
-        border: 3px solid saddlebrown;
+        border: 3px solid #552c0e;
         border-radius: 15px;
         text-align: center;
-        background: saddlebrown;
+        background: #552c0e;
+
     }
 
     #newdes nav {
@@ -465,6 +477,8 @@ nav a:active {
         border: 0;
 
         padding: .5rem .2em .5em .2em;
+
+        font-weight: normal;
 
     }
 
@@ -490,13 +504,13 @@ nav a:active {
 
     nav a:hover {
         text-decoration: underline;
-        color: saddlebrown;
+        color: #552c0e;
         background: white;
     }
 
     nav a:active {
         text-decoration: underline;
-        color: saddlebrown;
+        color: #552c0e;
         background: white;
     }
 
@@ -530,6 +544,10 @@ nav a:active {
   }
 }
 
+#nav-toggle {
+  background: #552c0e;
+}
+
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
@@ -538,14 +556,16 @@ nav a:active {
   height: 4px;
   width: 27px;
   /* background: #343434; */
-  background: saddlebrown;
+  //background: #552c0e;
+  background: white;
   position: absolute;
   display: block;
   content: '';
 }
 
 #nav-toggle span {
-  background-color: saddlebrown;
+  //background-color: #552c0e;
+  background-color: white;
 }
 
 #nav-toggle span:before {
@@ -564,6 +584,8 @@ nav a:active {
 
 #nav-toggle.active span {
   background-color: transparent;
+
+
 }
 
 #nav-toggle.active span:before,
@@ -588,7 +610,7 @@ nav a:active {
 #newdes figure img {
   //max-width: 98%;
   margin-right: 2px;
-  border: 2px solid saddlebrown;
+  border: 2px solid #552c0e;
 }
 
 /*
@@ -605,14 +627,14 @@ nav a:active {
 
 @media (min-width: 775px) {
   #newdes figure img {
-    border: 4px solid saddlebrown;
+    border: 4px solid #552c0e;
   }
 }
 /*
 @media (min-width: 775px) {
   #newdes figure img {
       width: 35%;
-       border: 4px solid saddlebrown;
+       border: 4px solid #552c0e;
   }
   #newdes figure img:not(:last-child) {
   margin-right: 30px;
@@ -628,7 +650,7 @@ nav a:active {
 
 #newdes #slide01 img, #newdes #slide02 img {
 border-radius: 15px;
-border: 1px solid saddlebrown;
+border: 1px solid #552c0e;
 //width: 95%;
 /* box-shadow: 0 0 20px rgba(139,69,19, 0.4); */
 }
@@ -661,7 +683,7 @@ margin-left: 0;
 } */
 
   #newdes #slide01 img, #newdes #slide02 img {
-      border: 2px solid saddlebrown;
+      border: 2px solid #552c0e;
   }
 }
 /*
@@ -689,7 +711,7 @@ margin-left: 0;
   } */
 
   #newdes #slide01 img, #newdes #slide02 img {
-      border: 4px solid saddlebrown;
+      border: 4px solid #552c0e;
   }
 }
 /*
@@ -702,3 +724,24 @@ margin-left: 0;
   margin-left: 17%;
   }
 }  */
+
+
+/** new bem mockup rules **/
+
+.SiteNav--topdes
+ {
+
+    height: 40px;
+    background-color: #552c0e;
+    margin-top: 0;
+    color: white;
+    padding-top: 7px;
+
+}
+
+
+
+.PageHeader__tagline {
+  font-family: leanderregular;
+  color: #F8EEBA;
+}

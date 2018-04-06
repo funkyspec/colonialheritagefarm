@@ -71,3 +71,33 @@ h2 {
         padding: 0;
     }
 }
+
+
+/** latest bem mockup rules **/
+
+.PageHeader--home {
+    padding-top: 15px;
+}
+
+.PageHeader--home .PageHeader__logo {
+    padding-left: 15px;
+    width: 300px;
+}
+
+@media (min-width: 480px) {
+    .PageHeader--home .PageHeader__logo {
+        margin: 0 auto;
+        padding: 0;
+        width: 400px;
+
+    }
+
+}
+
+.MainContentCont {
+    background-image: url("../images/bg_1.jpg");
+    padding: 20px;
+    border-radius: 25px;
+    border: 6px solid #552c0e;
+    margin-bottom: 20px;
+}
