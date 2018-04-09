@@ -331,6 +331,7 @@ body.page--bigbggray {
   // background-image: url("/images/bigger_bg_gray.jpg");
 
   background-image: url("/images/big_bg2gray.jpg");
+  //background-color:rgba(0, 0, 0, 0.3);
 
   }
 }
@@ -739,9 +740,39 @@ margin-left: 0;
 
 }
 
+.PageHeader {
+  padding-top: 15px;
+  background-color:rgba(0, 0, 0, 0.3);
+}
 
+.PageHeader .PageHeader__logo {
+  padding-left: 15px;
+  width: 200px;
+}
+
+@media (min-width: 480px) {
+  .PageHeader .PageHeader__logo {
+      margin: 0 auto;
+      padding: 0;
+      // width: 400px;
+
+  }
+
+}
 
 .PageHeader__tagline {
   font-family: leanderregular;
   color: #F8EEBA;
+  margin-top: 10px;
+  font-size: 2rem;
+}
+
+.PageHeader__title {
+  font-family: leanderregular;
+  color: #F8EEBA;
+  margin-top: 30px;
+}
+
+.MainContent {
+  background-color:rgba(0, 0, 0, 0.3);
 }

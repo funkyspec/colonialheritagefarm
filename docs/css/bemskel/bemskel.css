@@ -859,9 +859,32 @@ nav a:active {
   color: white;
   padding-top: 7px; }
 
+.PageHeader {
+  padding-top: 15px;
+  background-color: rgba(0, 0, 0, 0.3); }
+
+.PageHeader .PageHeader__logo {
+  padding-left: 15px;
+  width: 200px; }
+
+@media (min-width: 480px) {
+  .PageHeader .PageHeader__logo {
+    margin: 0 auto;
+    padding: 0; } }
+
 .PageHeader__tagline {
   font-family: leanderregular;
-  color: #F8EEBA; }
+  color: #F8EEBA;
+  margin-top: 10px;
+  font-size: 2rem; }
+
+.PageHeader__title {
+  font-family: leanderregular;
+  color: #F8EEBA;
+  margin-top: 30px; }
+
+.MainContent {
+  background-color: rgba(0, 0, 0, 0.3); }
 
 .u-full-width {
   width: 100%; }
@@ -1622,6 +1645,18 @@ h2 {
     margin: 0 auto;
     padding: 0;
     width: 400px; } }
+
+.PageHeader--home .PageHeader__tagline {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 3.6rem; }
+
+@media (min-width: 768px) {
+  .PageHeader--home .PageHeader__tagline {
+    text-align: center;
+    margin-top: 160px;
+    padding: 0; } }
 
 .MainContentCont {
   background-image: url("../images/bg_1.jpg");

@@ -94,6 +94,25 @@ h2 {
 
 }
 
+.PageHeader--home .PageHeader__tagline {
+
+    text-align: center;
+    margin-top: 20px;
+    padding: 0;
+    font-size: 3.6rem;
+
+
+}
+
+@media (min-width: 768px) {
+
+    .PageHeader--home .PageHeader__tagline {
+        text-align: center;
+        margin-top: 160px;
+        padding: 0;
+    }
+}
+
 .MainContentCont {
     background-image: url("../images/bg_1.jpg");
     padding: 20px;
