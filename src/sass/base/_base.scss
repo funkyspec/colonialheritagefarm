@@ -288,7 +288,7 @@ body {
 
 
 
-@media (min-width: 500px) {
+@media (min-width: 768px) {
 
   body {
 
@@ -747,7 +747,7 @@ margin-left: 0;
 
 .PageHeader .PageHeader__logo {
   padding-left: 15px;
-  width: 200px;
+  width: 150px;
 }
 
 @media (min-width: 480px) {
@@ -775,4 +775,9 @@ margin-left: 0;
 
 .MainContent {
   background-color:rgba(0, 0, 0, 0.3);
+}
+
+.ContImg {
+  border: 2px solid #552c0e;
+  border-radius: 10px;
 }
