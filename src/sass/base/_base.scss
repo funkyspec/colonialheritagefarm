@@ -452,7 +452,7 @@ nav a:active {
 }
 
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 768px) {
     nav {
         margin-bottom: 2.5rem;
         position: static;
@@ -539,7 +539,7 @@ nav a:active {
 
 
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 768px) {
   #nav-toggle {
     display: none;
   }
@@ -740,20 +740,27 @@ margin-left: 0;
 
 }
 
+#newdes .SiteNav--topdes nav, .SiteNav--topdes nav  {
+  font-size: 1.5rem;
+}
+
 .PageHeader {
   padding-top: 15px;
   background-color:rgba(0, 0, 0, 0.3);
 }
 
 .PageHeader .PageHeader__logo {
-  padding-left: 15px;
-  width: 150px;
+  //padding-left: 15px;
+  width: 300px;
+  margin: 0 auto;
+
 }
 
-@media (min-width: 480px) {
+@media (min-width: 960px) {
   .PageHeader .PageHeader__logo {
-      margin: 0 auto;
-      padding: 0;
+
+      //padding: 0;
+      width: 150px;
       // width: 400px;
 
   }
