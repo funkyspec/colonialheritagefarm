@@ -549,15 +549,12 @@ pre > code {
 body {
   background-image: url("/images/big_bg2sm.jpg");
   background-attachment: fixed;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @media (min-width: 768px) {
   body {
     background-image: url("/images/big_bg2.jpg"); } }
-
-@media (min-width: 1630px) {
-  body {
-    background-size: cover; } }
 
 /** interior page mockup **/
 body.page--bigbggray {

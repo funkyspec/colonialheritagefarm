@@ -283,6 +283,7 @@ body {
   background-image: url("/images/big_bg2sm.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
 
   }
 
@@ -302,7 +303,7 @@ body {
 @media (min-width: 1630px) {
 
   body {
-    background-size: cover;
+    //background-size: cover;
 
   }
 
