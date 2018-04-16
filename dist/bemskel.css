@@ -860,12 +860,19 @@ nav a:active {
   font-size: 1.5rem; }
 
 .PageHeader {
-  padding-top: 15px;
+  padding-top: 15px; }
+
+.page--noheadbox .PageHeader {
   background-color: rgba(0, 0, 0, 0.3); }
 
 .PageHeader .PageHeader__logo {
-  width: 300px;
+  width: 300px; }
+
+.mock01 .PageHeader .PageHeader__logo {
   margin: 0 auto; }
+
+.page--noheadbox .PageHeader .PageHeader__logo {
+  margin-left: 25px; }
 
 @media (min-width: 960px) {
   .PageHeader .PageHeader__logo {
@@ -882,12 +889,31 @@ nav a:active {
   color: #F8EEBA;
   margin-top: 30px; }
 
-.MainContent {
+.page--bigbox .PageHeader__title {
+  color: #552c0e; }
+
+.page--noheadbox .MainContent {
   background-color: rgba(0, 0, 0, 0.3); }
 
 .ContImg {
   border: 2px solid #552c0e;
   border-radius: 10px; }
+
+.MainContentCont {
+  background-image: url("../images/bg_1.jpg");
+  padding: 20px;
+  border-radius: 25px;
+  border: 6px solid #552c0e;
+  margin-bottom: 20px; }
+
+.mock01 .MainContentCont {
+  padding: 15px; }
+
+.page--bigbox .MainContentCont {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 10px; }
 
 .u-full-width {
   width: 100%; }
@@ -1660,13 +1686,6 @@ h2 {
     text-align: center;
     margin-top: 160px;
     padding: 0; } }
-
-.MainContentCont {
-  background-image: url("../images/bg_1.jpg");
-  padding: 20px;
-  border-radius: 25px;
-  border: 6px solid #552c0e;
-  margin-bottom: 20px; }
 
 .dark {
   background-color: #1d1d1d; }

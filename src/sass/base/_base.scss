@@ -747,14 +747,26 @@ margin-left: 0;
 
 .PageHeader {
   padding-top: 15px;
+  //background-color:rgba(0, 0, 0, 0.3);
+}
+
+.page--noheadbox .PageHeader {
   background-color:rgba(0, 0, 0, 0.3);
 }
 
 .PageHeader .PageHeader__logo {
   //padding-left: 15px;
   width: 300px;
-  margin: 0 auto;
 
+
+}
+
+.mock01 .PageHeader .PageHeader__logo {
+  margin: 0 auto;
+}
+
+.page--noheadbox .PageHeader .PageHeader__logo {
+  margin-left: 25px;
 }
 
 @media (min-width: 960px) {
@@ -781,11 +793,34 @@ margin-left: 0;
   margin-top: 30px;
 }
 
-.MainContent {
-  background-color:rgba(0, 0, 0, 0.3);
+.page--bigbox .PageHeader__title {
+  color: #552c0e;
+}
+
+.page--noheadbox .MainContent {
+ background-color:rgba(0, 0, 0, 0.3);
 }
 
 .ContImg {
   border: 2px solid #552c0e;
   border-radius: 10px;
+}
+
+.MainContentCont {
+  background-image: url("../images/bg_1.jpg");
+  padding: 20px;
+  border-radius: 25px;
+  border: 6px solid #552c0e;
+  margin-bottom: 20px;
+}
+
+.mock01 .MainContentCont {
+  padding: 15px;
+}
+
+.page--bigbox .MainContentCont {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 10px;
 }
