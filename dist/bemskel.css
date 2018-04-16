@@ -876,7 +876,11 @@ nav a:active {
   margin: 0 auto; }
 
 .page--noheadbox .PageHeader .PageHeader__logo {
-  margin-left: 25px; }
+  margin: 0 auto; }
+
+@media (min-width: 768px) {
+  .page--noheadbox .PageHeader .PageHeader__logo {
+    margin-left: 25px; } }
 
 @media (min-width: 960px) {
   .PageHeader .PageHeader__logo {

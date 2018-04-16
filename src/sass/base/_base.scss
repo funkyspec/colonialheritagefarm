@@ -772,7 +772,13 @@ margin-left: 0;
 }
 
 .page--noheadbox .PageHeader .PageHeader__logo {
-  margin-left: 25px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .page--noheadbox .PageHeader .PageHeader__logo {
+    margin-left: 25px;
+  }
 }
 
 @media (min-width: 960px) {
