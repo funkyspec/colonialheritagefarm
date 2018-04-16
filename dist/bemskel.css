@@ -893,7 +893,11 @@ nav a:active {
   color: #552c0e; }
 
 .page--noheadbox .MainContent {
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: transparent; }
+
+@media (min-width) {
+  .page--noheadbox .MainContent {
+    background-color: rgba(0, 0, 0, 0.3); } }
 
 .ContImg {
   border: 2px solid #552c0e;
