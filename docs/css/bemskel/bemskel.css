@@ -903,7 +903,7 @@ nav a:active {
 .page--noheadbox .MainContent {
   background-color: transparent; }
 
-@media (min-width) {
+@media (min-width: 768px) {
   .page--noheadbox .MainContent {
     background-color: rgba(0, 0, 0, 0.3); } }
 
