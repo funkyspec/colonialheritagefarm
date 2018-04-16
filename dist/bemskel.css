@@ -863,7 +863,11 @@ nav a:active {
   padding-top: 15px; }
 
 .page--noheadbox .PageHeader {
-  background-color: rgba(0, 0, 0, 0.3); }
+  background-color: transparent; }
+
+@media (min-width: 768px) {
+  .page--noheadbox .PageHeader {
+    background-color: rgba(0, 0, 0, 0.3); } }
 
 .PageHeader .PageHeader__logo {
   width: 300px; }
