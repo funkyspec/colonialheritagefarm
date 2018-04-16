@@ -915,6 +915,29 @@ nav a:active {
   padding-left: 15px;
   padding-right: 10px; }
 
+.page--noheadbox .MainContentCont {
+  margin-top: 15px; }
+
+@media (min-width: 768px) {
+  .page--noheadbox .MainContentCont {
+    margin-top: 0; } }
+
+.PageHeaderDeskCont {
+  display: none; }
+
+@media (min-width: 768px) {
+  .PageHeaderDeskCont {
+    display: block; } }
+
+.PageHeaderMobileCont {
+  display: block;
+  color: #552c0e;
+  font-family: leanderregular; }
+
+@media (min-width: 768px) {
+  .PageHeaderMobileCont {
+    display: none; } }
+
 .u-full-width {
   width: 100%; }
 
