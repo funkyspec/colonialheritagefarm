@@ -274,7 +274,25 @@ pre > code {
 
 /** colonial heritage overrides **/
 
-/** home page mockup **/
+html {
+  background: url("/images/big_bg2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+
+}
+
+@media (min-width: 768px) {
+  html {
+    background-position: top;
+  }
+}
+
+
+
+/** home page mockup
 
 body {
 
@@ -307,7 +325,7 @@ body {
 
   }
 
-}
+}  **/
 
 /** interior page mockup **/
 
@@ -839,6 +857,7 @@ margin-left: 0;
 
 .mock01 .MainContentCont {
   padding: 15px;
+  margin-bottom: 20px;
 }
 
 .page--bigbox .MainContentCont {
