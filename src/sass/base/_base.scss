@@ -275,24 +275,32 @@ pre > code {
 /** colonial heritage overrides **/
 
 html {
-  background: url("/images/big_bg2sm420.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-
+  background: url("/images/grass_bg2sm420.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 @media (min-width: 421px) {
   html {
+    background-image: url("/images/grass_bg.jpg")
+  }
+}
+
+body {
+  background: url("/images/big_bg2sm420.jpg") no-repeat center center fixed;
+  background-size: 100%
+
+}
+
+@media (min-width: 421px) {
+ body {
     background-image: url("/images/big_bg2.jpg");
+    background-position: top;
   }
 }
 
 @media (min-width: 768px) {
-  html {
-    background-position: top;
+  body {
+    //background-position: top;
   }
 }
 
