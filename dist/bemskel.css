@@ -546,7 +546,7 @@ pre > code {
 
 /** colonial heritage overrides **/
 html {
-  background: url("/images/grass_bg2sm420.jpg") no-repeat center center fixed;
+  background: url("/images/grass_bg2sm420.jpg") no-repeat top center fixed;
   background-size: cover; }
 
 @media (min-width: 421px) {
@@ -554,13 +554,12 @@ html {
     background-image: url("/images/grass_bg.jpg"); } }
 
 body {
-  background: url("/images/big_bg2sm420.jpg") no-repeat center center fixed;
+  background: url("/images/big_bg2sm420.jpg") no-repeat top center fixed;
   background-size: 100%; }
 
 @media (min-width: 421px) {
   body {
-    background-image: url("/images/big_bg2.jpg");
-    background-position: top; } }
+    background-image: url("/images/big_bg2.jpg"); } }
 
 /** home page mockup
 
