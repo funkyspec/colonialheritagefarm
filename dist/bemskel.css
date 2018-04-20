@@ -546,7 +546,7 @@ pre > code {
 
 /** colonial heritage overrides **/
 html {
-  background: url("/images/grass_bg2sm420.jpg") no-repeat top center fixed;
+  background: url("/images/grass_bgsm420.jpg") no-repeat top center fixed;
   background-size: cover; }
 
 @media (min-width: 421px) {
