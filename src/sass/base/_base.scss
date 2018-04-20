@@ -860,6 +860,18 @@ margin-left: 0;
   border-radius: 10px;
 }
 
+.mock01 .MainContent {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 421px) {
+  .mock01 .MainContent {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
 .MainContentCont {
   background-image: url("../images/bg_1.jpg");
   //padding: 20px;
@@ -872,7 +884,10 @@ margin-left: 0;
 .mock01 .MainContentCont {
   padding: 15px;
   margin-bottom: 20px;
+
+
 }
+
 
 .page--bigbox .MainContentCont {
   margin-top: 20px;

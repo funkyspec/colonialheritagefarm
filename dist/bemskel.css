@@ -950,6 +950,15 @@ nav a:active {
   border: 2px solid #552c0e;
   border-radius: 10px; }
 
+.mock01 .MainContent {
+  padding-left: 10px;
+  padding-right: 10px; }
+
+@media (min-width: 421px) {
+  .mock01 .MainContent {
+    padding-left: 0;
+    padding-right: 0; } }
+
 .MainContentCont {
   background-image: url("../images/bg_1.jpg");
   padding: 20px;
