@@ -50,10 +50,11 @@ Markup:
   }
 }
 
-// For devices larger than 550px
-@media (#{$bp-larger-than-phablet}) {
+// For devices larger than 550px  $bp-larger-than-phablet  $container-width-larger-than-phablet
+//colonial heritage change
+@media (#{$bp-larger-than-tablet}) {
   .container {
-    width: $container-width-larger-than-phablet;
+    width: $container-width-larger-than-mobile;
   }
   .col {
     margin-left: $column-margin;

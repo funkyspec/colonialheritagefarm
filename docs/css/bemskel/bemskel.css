@@ -1290,9 +1290,9 @@ Markup:
     width: 85%;
     padding: 0; } }
 
-@media (min-width: 550px) {
+@media (min-width: 750px) {
   .container {
-    width: 80%; }
+    width: 85%; }
   .col {
     margin-left: 2%; }
   .col:first-child {
