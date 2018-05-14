@@ -784,10 +784,6 @@ nav a:active {
 
 /** colonial heritage home page slide show */
 /* new design styles for 2 block slideshow */
-#newdes figure img {
-  margin-right: 2px;
-  border: 2px solid #552c0e; }
-
 /*
 @media (min-width: 550px) {
   #newdes figure img {
@@ -798,11 +794,13 @@ nav a:active {
   #newdes figure img:not(:last-child) {
   margin-right: 20px;
   }
-} */
+}
+
 @media (min-width: 775px) {
   #newdes figure img {
-    border: 4px solid #552c0e; } }
-
+    border: 4px solid #552c0e;
+  }
+} */
 /*
 @media (min-width: 775px) {
   #newdes figure img {
@@ -998,6 +996,21 @@ nav a:active {
 @media (min-width: 768px) {
   .PageHeaderMobileCont {
     display: none; } }
+
+.figCont__img {
+  border: 0;
+  margin: 0 auto;
+  border: 2px solid #552c0e;
+  max-width: 100%;
+  border-radius: 10px; }
+
+@media (min-width: 775px) {
+  .figCont__img {
+    border: 4px solid #552c0e; } }
+
+.figCont__cap {
+  margin-top: 7px;
+  font-size: 1.6rem; }
 
 .u-full-width {
   width: 100%; }

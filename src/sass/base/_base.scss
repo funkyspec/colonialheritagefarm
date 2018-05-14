@@ -643,8 +643,8 @@ nav a:active {
 
 #newdes figure img {
   //max-width: 98%;
-  margin-right: 2px;
-  border: 2px solid #552c0e;
+  // margin-right: 2px;
+ // border: 2px solid #552c0e;
 }
 
 /*
@@ -657,13 +657,13 @@ nav a:active {
   #newdes figure img:not(:last-child) {
   margin-right: 20px;
   }
-} */
+}
 
 @media (min-width: 775px) {
   #newdes figure img {
     border: 4px solid #552c0e;
   }
-}
+} */
 /*
 @media (min-width: 775px) {
   #newdes figure img {
@@ -931,4 +931,24 @@ margin-left: 0;
   .PageHeaderMobileCont {
     display: none;
   }
+}
+
+.figCont__img {
+  border: 0;
+  margin: 0 auto;
+  border: 2px solid #552c0e;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 775px) {
+  .figCont__img {
+    border: 4px solid #552c0e;
+
+  }
+}
+
+.figCont__cap {
+  margin-top: 7px;
+  font-size: 1.6rem;
 }
