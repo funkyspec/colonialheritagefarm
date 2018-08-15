@@ -934,6 +934,10 @@ nav a:active {
   color: #F8EEBA;
   margin-top: 30px; }
 
+.PageHeader__hometitle {
+  font-family: leanderregular;
+  color: #552c0e; }
+
 .page--bigbox .PageHeader__title {
   color: #552c0e; }
 
@@ -1760,7 +1764,8 @@ h2 {
 
 /** latest bem mockup rules **/
 .PageHeader--home {
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
 
 .PageHeader--home .PageHeader__logo {
   padding-left: 15px;
