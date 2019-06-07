@@ -1,4 +1,6 @@
-.DS_Store
+# Ignore Node Modules
 node_modules
-docs/examples/comingsoon
-assets
+
+# Sass Cache
+.sass-cache
+.DS_Store
