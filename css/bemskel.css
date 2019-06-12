@@ -561,70 +561,8 @@ body {
   body {
     background-image: url("/images/big_bg2.jpg"); } }
 
-/** home page mockup
 
-body {
-
-  //  background-image: url("../images/bg_1.jpg");
-
-  background-image: url("/images/big_bg2sm.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  }
-
-
-
-@media (min-width: 768px) {
-
-  body {
-
-  //  background-image: url("../images/bg_1.jpg");
-
-  background-image: url("/images/big_bg2.jpg");
-
-  }
-}
-
-@media (min-width: 1630px) {
-
-  body {
-    //background-size: cover;
-
-  }
-
-}  **/
 /** interior page mockup **/
-body.page--bigbggray {
-  background-image: url("/images/big_bg2sm.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat; }
-
-@media (min-width: 500px) {
-  body.page--bigbggray {
-    background-image: url("/images/big_bg2gray.jpg"); } }
-
-@media (min-width: 1630px) {
-  body.page--bigbggray {
-    background-size: cover; } }
-
-h1.page-title {
-  color: #552c0e;
-  font-family: leanderregular; }
-
-body.page--bigbg main {
-  background-image: url("../images/bg_1.jpg");
-  padding-top: 20px; }
-
-.pageheader {
-  padding-top: 20px; }
-
-.logosmall {
-  width: 200px;
-  float: left;
-  margin: -5px 0 0 0;
-  display: block; }
 
 /* navigation styles */
 nav {
@@ -784,40 +722,7 @@ nav a:active {
 
 /** colonial heritage home page slide show */
 /* new design styles for 2 block slideshow */
-/*
-@media (min-width: 550px) {
-  #newdes figure img {
-  width: 40%;
 
-  }
-
-  #newdes figure img:not(:last-child) {
-  margin-right: 20px;
-  }
-}
-
-@media (min-width: 775px) {
-  #newdes figure img {
-    border: 4px solid #552c0e;
-  }
-} */
-/*
-@media (min-width: 775px) {
-  #newdes figure img {
-      width: 35%;
-       border: 4px solid #552c0e;
-  }
-  #newdes figure img:not(:last-child) {
-  margin-right: 30px;
-  }
-}
-
-
-@media (min-width: 1000px) {
-  #newdes figure img {
-      width: 30%;
-  }
-} */
 #newdes #slide01 img, #newdes #slide02 img {
   border-radius: 15px;
   border: 1px solid #552c0e;
@@ -827,64 +732,19 @@ nav a:active {
   width: 98%;
   margin-left: 0; }
 
-/*
-#newdes #slide01 {
-  margin-left: 0;
-  }
 
-  #newdes #slide02 {
-  margin-left: 5px;
-} */
 @media (min-width: 300px) {
-  /* #newdes #slide01, #newdes #slide02 {
-      width: 45%;
-  }
-
-  #newdes #slide01 {
-  margin-left: 6px;
-  }
-
-  #newdes #slide02 {
-  margin-left: 10px;
-} */
+  
   #newdes #slide01 img, #newdes #slide02 img {
     border: 2px solid #552c0e; } }
 
-/*
-@media (min-width: 600px) {
-  #newdes #slide01, #newdes #slide02 {
-      width: 40%;
-  }
 
-  #newdes #slide01 {
-  margin-left: 9%;
-  }
-
-  #newdes #slide02 {
-  margin-left: 20px;
-}
-} */
 @media (min-width: 900px) {
-  /* #newdes #slide01, #newdes #slide02 {
-      width: 35%;
-  }
-
-  #newdes #slide01 {
-  margin-left: 12%;
-  } */
+  
   #newdes #slide01 img, #newdes #slide02 img {
     border: 4px solid #552c0e; } }
 
-/*
-@media (min-width: 1100px) {
-  #newdes #slide01, #newdes #slide02 {
-      width: 30%;
-  }
 
-  #newdes #slide01 {
-  margin-left: 17%;
-  }
-}  */
 /** new bem mockup rules **/
 .SiteNav--topdes {
   height: 40px;
